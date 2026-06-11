@@ -11,8 +11,8 @@
     "copyAsPng": "Sao chép vào bộ nhớ tạm dưới dạng PNG",
     "copyAsSvg": "Sao chép vào bộ nhớ tạm dưới dạng SVG",
     "copyText": "Sao chép vào bộ nhớ tạm dưới dạng chữ",
-    "copySource": "",
-    "convertToCode": "",
+    "copySource": "Sao chép nguồn vào bộ nhớ tạm",
+    "convertToCode": "Chuyển đổi thành mã",
     "bringForward": "Đưa ra trước",
     "sendToBack": "Hạ xuống dưới",
     "bringToFront": "Đưa ra đầu tiên",
@@ -38,12 +38,12 @@
     "arrowhead_none": "Không",
     "arrowhead_arrow": "Mũi tên",
     "arrowhead_bar": "Thanh",
-    "arrowhead_circle": "",
-    "arrowhead_circle_outline": "",
+    "arrowhead_circle": "Hình tròn",
+    "arrowhead_circle_outline": "Hình tròn (viền)",
     "arrowhead_triangle": "Tam giác",
-    "arrowhead_triangle_outline": "",
-    "arrowhead_diamond": "",
-    "arrowhead_diamond_outline": "",
+    "arrowhead_triangle_outline": "Tam giác (viền)",
+    "arrowhead_diamond": "Hình thoi",
+    "arrowhead_diamond_outline": "Hình thoi (viền)",
     "fontSize": "Cỡ chữ",
     "fontFamily": "Phông chữ",
     "addWatermark": "Làm với Excalidraw\"",
@@ -105,26 +105,29 @@
     "share": "Chia sẻ",
     "showStroke": "Hiển thị chọn màu",
     "showBackground": "Hiện thị chọn màu nền",
-    "toggleTheme": "",
+    "toggleTheme": "Chuyển giao diện sáng/tối",
     "personalLib": "Thư viện cá nhân",
     "excalidrawLib": "Thư viện Excalidraw",
     "decreaseFontSize": "Giảm cỡ chữ",
     "increaseFontSize": "Tăng cỡ chữ",
-    "unbindText": "",
-    "bindText": "",
-    "createContainerFromText": "",
+    "unbindText": "Tách văn bản",
+    "bindText": "Gắn văn bản vào vùng chứa",
+    "createContainerFromText": "Wrap text in a container",
     "link": {
       "edit": "Sửa liên kết",
-      "editEmbed": "",
+      "editEmbed": "Sửa liên kết nhúng",
       "create": "Tạo liên kết",
-      "createEmbed": "",
+      "createEmbed": "Tạo nhúng",
       "label": "Liên kết",
-      "labelEmbed": "",
-      "empty": ""
+      "labelEmbed": "Liên kết & nhúng",
+      "empty": "No link is set",
+      "hint": "Type or paste your link here",
+      "goToElement": "Go to target element"
     },
     "lineEditor": {
       "edit": "Điều chỉnh nét",
-      "exit": "Thoát chỉnh nét"
+      "exit": "Thoát chỉnh nét",
+      "editArrow": "Edit arrow"
     },
     "elementLock": {
       "lock": "Khoá",
@@ -134,11 +137,46 @@
     },
     "statusPublished": "Đã đăng tải",
     "sidebarLock": "Giữ thanh bên luôn mở",
-    "selectAllElementsInFrame": "",
-    "removeAllElementsFromFrame": "",
-    "eyeDropper": "",
-    "textToDiagram": "",
-    "prompt": ""
+    "selectAllElementsInFrame": "Select all elements in frame",
+    "removeAllElementsFromFrame": "Remove all elements from frame",
+    "eyeDropper": "Pick color from canvas",
+    "textToDiagram": "Text to diagram",
+    "prompt": "Prompt",
+    "changeStroke": "Đổi màu nét vẽ",
+    "changeBackground": "Đổi màu nền",
+    "arrowhead_crowfoot_many": "Chân chim (nhiều)",
+    "arrowhead_crowfoot_one": "Chân chim (một)",
+    "arrowhead_crowfoot_one_or_many": "Chân chim (một hoặc nhiều)",
+    "more_options": "Thêm tùy chọn",
+    "arrowtypes": "Kiểu mũi tên",
+    "arrowtype_sharp": "Mũi tên nhọn",
+    "arrowtype_round": "Mũi tên cong",
+    "arrowtype_elbowed": "Mũi tên gấp khúc",
+    "clearCanvas": "Xóa canvas",
+    "present": "Trình bày",
+    "duplicateSelectionIntoNextFrame": "Nhân đôi vào frame tiếp theo",
+    "toggleGrid": "Bật/tắt lưới",
+    "loadScene": "Tải cảnh từ tệp",
+    "showFonts": "Hiện bộ chọn phông chữ",
+    "theme": "Giao diện",
+    "polygon": {
+      "breakPolygon": "Break polygon",
+      "convertToPolygon": "Convert to polygon"
+    },
+    "followUs": "Follow us",
+    "discordChat": "Discord chat",
+    "zoomToFitViewport": "Zoom to fit in viewport",
+    "zoomToFitSelection": "Zoom to fit selection",
+    "zoomToFit": "Zoom to fit all elements",
+    "installPWA": "Install Excalidraw locally (PWA)",
+    "autoResize": "Enable text auto-resizing",
+    "imageCropping": "Image cropping",
+    "unCroppedDimension": "Uncropped dimension",
+    "copyElementLink": "Copy link to object",
+    "linkToElement": "Link to object",
+    "wrapSelectionInFrame": "Wrap selection in frame",
+    "tab": "Tab",
+    "shapeSwitch": "Switch shape"
   },
   "library": {
     "noItems": "Chưa có món nào...",
@@ -166,42 +204,44 @@
     "edit": "Chỉnh sửa",
     "undo": "Hoàn tác",
     "redo": "Làm lại",
-    "resetLibrary": "",
+    "resetLibrary": "Reset library",
     "createNewRoom": "Tạo phòng mới",
     "fullScreen": "Toàn màn hình",
     "darkMode": "Chế độ tối",
     "lightMode": "Chế độ sáng",
     "zenMode": "Chế độ zen",
-    "objectsSnapMode": "",
+    "objectsSnapMode": "Snap to objects",
     "exitZenMode": "Thoát chể độ zen",
     "cancel": "Hủy",
     "clear": "Làm sạch",
     "remove": "Xóa",
-    "embed": "",
+    "embed": "Toggle embedding",
     "publishLibrary": "Đăng tải",
     "submit": "Gửi",
     "confirm": "Xác nhận",
-    "embeddableInteractionButton": ""
+    "embeddableInteractionButton": "Click to interact",
+    "copyLink": "Copy link",
+    "systemMode": "System mode"
   },
   "alerts": {
     "clearReset": "Điều này sẽ dọn hết canvas. Bạn có chắc không?",
     "couldNotCreateShareableLink": "Không thể tạo đường dẫn chia sẻ.",
     "couldNotCreateShareableLinkTooBig": "Không thể tạo đường dẫn chia sẻ: bản vẽ quá lớn",
     "couldNotLoadInvalidFile": "Không thể load tập tin không hợp lệ",
-    "importBackendFailed": "",
+    "importBackendFailed": "Importing from backend failed.",
     "cannotExportEmptyCanvas": "Không thể xuất canvas trống.",
-    "couldNotCopyToClipboard": "",
+    "couldNotCopyToClipboard": "Couldn't copy to clipboard.",
     "decryptFailed": "Không thể giải mã dữ liệu.",
-    "uploadedSecurly": "",
-    "loadSceneOverridePrompt": "",
+    "uploadedSecurly": "The upload has been secured with end-to-end encryption, which means that Excalidraw server and third parties can't read the content.",
+    "loadSceneOverridePrompt": "Loading external drawing will replace your existing content. Do you wish to continue?",
     "collabStopOverridePrompt": "Dừng phiên sẽ ghi đè lên bản vẽ được lưu trữ cục bộ trước đó của bạn. Bạn có chắc không?\n\n(Nếu bạn muốn giữ bản vẽ cục bộ của mình, chỉ cần đóng tab trình duyệt.)",
     "errorAddingToLibrary": "Không thể thêm món vào thư viện",
     "errorRemovingFromLibrary": "Không thể xoá món khỏi thư viện",
     "confirmAddLibrary": "Hình {{numShapes}} sẽ được thêm vào thư viện. Bạn chắc chứ?",
     "imageDoesNotContainScene": "Hình ảnh này dường như không chứa bất kỳ dữ liệu cảnh nào. Bạn đã bật tính năng nhúng cảnh khi xuất chưa?",
-    "cannotRestoreFromImage": "",
-    "invalidSceneUrl": "",
-    "resetLibrary": "",
+    "cannotRestoreFromImage": "Scene couldn't be restored from this image file",
+    "invalidSceneUrl": "Couldn't import scene from the supplied URL. It's either malformed, or doesn't contain valid Excalidraw JSON data.",
+    "resetLibrary": "This will clear your library. Are you sure?",
     "removeItemsFromsLibrary": "Xoá {{count}} món từ thư viện?",
     "invalidEncryptionKey": "Khóa mã hóa phải có 22 ký tự. Hợp tác trực tiếp bị vô hiệu hóa.",
     "collabOfflineWarning": "Không có kết nối internet.\nThay đổi của bạn sẽ không được lưu!"
@@ -211,27 +251,28 @@
     "imageInsertError": "Không thể thêm ảnh. Hãy thử lại sau...",
     "fileTooBig": "Tệp tin quá lớn. Dung lượng tối đa cho phép là {{maxSize}}.",
     "svgImageInsertError": "Không thể thêm ảnh SVG. Mã SVG có vẻ sai.",
-    "failedToFetchImage": "",
+    "failedToFetchImage": "Failed to fetch image.",
     "invalidSVGString": "SVG không hợp lệ.",
     "cannotResolveCollabServer": "Không thể kết nối với máy chủ hợp tác. Hãy tải lại trang và thử lại.",
     "importLibraryError": "Không thể tải thư viện",
     "collabSaveFailed": "Không thể lưu vào cơ sở dữ liệu. Nếu vấn đề tiếp tục xảy ra, bạn nên lưu tệp vào máy để đảm bảo bạn không bị mất công việc.",
     "collabSaveFailed_sizeExceeded": "Không thể lưu vào cơ sở dữ liệu, canvas có vẻ quá lớn. Bạn nên lưu tệp cục bộ để đảm bảo bạn không bị mất công việc.",
-    "imageToolNotSupported": "",
+    "imageToolNotSupported": "Images are disabled.",
     "brave_measure_text_error": {
-      "line1": "",
-      "line2": "",
-      "line3": "",
-      "line4": ""
+      "line1": "Looks like you are using Brave browser with the <bold>Aggressively Block Fingerprinting</bold> setting enabled.",
+      "line2": "This could result in breaking the <bold>Text Elements</bold> in your drawings.",
+      "line3": "We strongly recommend disabling this setting. You can follow <link>these steps</link> on how to do so.",
+      "line4": "If disabling this setting doesn't fix the display of text elements, please open an <issueLink>issue</issueLink> on our GitHub, or write us on <discordLink>Discord</discordLink>"
     },
     "libraryElementTypeError": {
-      "embeddable": "",
-      "iframe": "",
-      "image": ""
+      "embeddable": "Embeddable elements cannot be added to the library.",
+      "iframe": "IFrame elements cannot be added to the library.",
+      "image": "Support for adding images to the library coming soon!"
     },
-    "asyncPasteFailedOnRead": "",
-    "asyncPasteFailedOnParse": "",
-    "copyToSystemClipboardFailed": ""
+    "asyncPasteFailedOnRead": "Couldn't paste (couldn't read from system clipboard).",
+    "asyncPasteFailedOnParse": "Couldn't paste.",
+    "copyToSystemClipboardFailed": "Couldn't copy to clipboard.",
+    "saveLibraryError": "Couldn't save library to storage. Please save your library to a file locally to make sure you don't lose changes."
   },
   "toolBar": {
     "selection": "Lựa chọn",
@@ -248,14 +289,16 @@
     "penMode": "Chế độ bút vẽ - ngăn ngừa chạm nhầm",
     "link": "Thêm/ Chỉnh sửa liên kết cho hình được chọn",
     "eraser": "Xóa",
-    "frame": "",
-    "magicframe": "",
-    "embeddable": "",
-    "laser": "",
+    "frame": "Frame tool",
+    "magicframe": "Wireframe to code",
+    "embeddable": "Nhúng web",
+    "laser": "Laser pointer",
     "hand": "Tay kéo",
-    "extraTools": "",
-    "mermaidToExcalidraw": "",
-    "magicSettings": ""
+    "extraTools": "More tools",
+    "mermaidToExcalidraw": "Mermaid to Excalidraw",
+    "magicSettings": "Cài đặt magic",
+    "lasso": "Lasso selection",
+    "convertElementType": "Toggle shape type"
   },
   "headings": {
     "canvasActions": "Hành động canvas",
@@ -267,24 +310,30 @@
     "linearElement": "Ấn để bắt đầu nhiểm điểm vẽ, kéo để vẽ một đường thẳng",
     "freeDraw": "Ấn bà kéo, thả khi bạn xong",
     "text": "Mẹo: bạn có thể thêm văn bản tại bất cứ đâu bằng cách ấn hai lần bằng tool lựa chọn",
-    "embeddable": "",
+    "embeddable": "Click-drag to create a website embed",
     "text_selected": "Ấn 2 lần hoặc nhấn ENTER để chỉnh văn bản",
     "text_editing": "Nhấn Escape hoặc Ctrl/Cmd+ENTER để hoàn thành chỉnh sửa",
     "linearElementMulti": "Nhấn vào điểm cuối hoặc nhấn Escape hoặc Enter để kết thúc",
     "lockAngle": "Bạn có thể chỉnh lại góc bằng cách giữ phím SHIFT",
     "resize": "Bạn có thể chỉnh tỷ lệ bằng cách giữ SHIFT khi chỉnh kích cỡ,\ngiữ ALT để chỉnh kích cỡ từ trung tâm",
-    "resizeImage": "",
-    "rotate": "",
-    "lineEditor_info": "",
-    "lineEditor_pointSelected": "",
-    "lineEditor_nothingSelected": "",
-    "placeImage": "",
-    "publishLibrary": "",
-    "bindTextToElement": "",
-    "deepBoxSelect": "",
-    "eraserRevert": "",
+    "resizeImage": "You can resize freely by holding SHIFT,\nhold ALT to resize from the center",
+    "rotate": "You can constrain angles by holding SHIFT while rotating",
+    "lineEditor_info": "Hold CtrlOrCmd and Double-click or press CtrlOrCmd + Enter to edit points",
+    "lineEditor_pointSelected": "Press Delete to remove point(s),\nCtrlOrCmd+D to duplicate, or drag to move",
+    "lineEditor_nothingSelected": "Select a point to edit (hold SHIFT to select multiple),\nor hold Alt and click to add new points",
+    "placeImage": "Nhấn để đặt hình ảnh, hoặc kéo và thả để chèn",
+    "publishLibrary": "Publish your own library",
+    "bindTextToElement": "Press enter to add text",
+    "deepBoxSelect": "Hold CtrlOrCmd to deep select, and to prevent dragging",
+    "eraserRevert": "Hold Alt to revert the elements marked for deletion",
     "firefox_clipboard_write": "Tính năng này có thể được bật bằng cách đặt cờ \"dom.events.asyncClipboard.clipboardItem\" thành \"true\". Để thay đổi cờ trình duyệt trong Firefox, hãy truy cập trang \"about:config\".",
-    "disableSnapping": ""
+    "disableSnapping": "Hold CtrlOrCmd to disable snapping",
+    "dismissSearch": "Escape to dismiss search",
+    "arrowTool": "Click to start multiple points, drag for single line. Press {{arrowShortcut}} again to change arrow type.",
+    "lineEditor_line_info": "Double-click or press Enter to edit points",
+    "createFlowchart": "Hold CtrlOrCmd and Arrow key to create a flowchart",
+    "enterCropEditor": "Double click the image or press ENTER to crop the image",
+    "leaveCropEditor": "Click outside the image or press ENTER or ESCAPE to finish cropping"
   },
   "canvasError": {
     "cannotShowPreview": "Không thể xem trước",
@@ -292,234 +341,314 @@
     "canvasTooBigTip": "Mẹo: hãy thử di chuyển các elements nhất lại gần nhau hơn một chút."
   },
   "errorSplash": {
-    "headingMain": "",
+    "headingMain": "Encountered an error. Try <button>reloading the page</button>.",
     "clearCanvasMessage": "Nếu không tải lại được, hãy thử <button>dọn canvas.</button>",
     "clearCanvasCaveat": " Điều này sẽ dẫn đến mất dữ liệu bạn đã làm ",
-    "trackedToSentry": "",
-    "openIssueMessage": "",
-    "sceneContent": ""
+    "trackedToSentry": "The error with identifier {{eventId}} was tracked on our system.",
+    "openIssueMessage": "We were very cautious not to include your scene information on the error. If your scene is not private, please consider following up on our <button>bug tracker</button>. Please include information below by copying and pasting into the GitHub issue.",
+    "sceneContent": "Scene content:"
   },
   "roomDialog": {
-    "desc_intro": "",
-    "desc_privacy": "",
-    "button_startSession": "",
-    "button_stopSession": "",
-    "desc_inProgressIntro": "",
-    "desc_shareLink": "",
-    "desc_exitSession": "",
-    "shareTitle": ""
+    "desc_intro": "Invite people to collaborate on your drawing.",
+    "desc_privacy": "Don't worry, the session is end-to-end encrypted, and fully private. Not even our server can see what you draw.",
+    "button_startSession": "Bắt đầu phiên",
+    "button_stopSession": "Dừng phiên",
+    "desc_inProgressIntro": "Live-collaboration session is now in progress.",
+    "desc_shareLink": "Share this link with anyone you want to collaborate with:",
+    "desc_exitSession": "Stopping the session will disconnect you from the room, but you'll be able to continue working with the scene, locally. Note that this won't affect other people, and they'll still be able to collaborate on their version.",
+    "shareTitle": "Join a live collaboration session on Excalidraw"
   },
   "errorDialog": {
-    "title": ""
+    "title": "Error"
   },
   "exportDialog": {
-    "disk_title": "",
-    "disk_details": "",
-    "disk_button": "",
-    "link_title": "",
-    "link_details": "",
-    "link_button": "",
-    "excalidrawplus_description": "",
-    "excalidrawplus_button": "",
-    "excalidrawplus_exportError": ""
+    "disk_title": "Save to disk",
+    "disk_details": "Export the scene data to a file from which you can import later.",
+    "disk_button": "Save to file",
+    "link_title": "Liên kết chia sẻ",
+    "link_details": "Export as a read-only link.",
+    "link_button": "Export to Link",
+    "excalidrawplus_description": "Save the scene to your Excalidraw+ workspace.",
+    "excalidrawplus_button": "Xuất",
+    "excalidrawplus_exportError": "Couldn't export to Excalidraw+ at this moment..."
   },
   "helpDialog": {
-    "blog": "",
-    "click": "",
-    "deepSelect": "",
-    "deepBoxSelect": "",
-    "curvedArrow": "",
-    "curvedLine": "",
-    "documentation": "",
-    "doubleClick": "",
-    "drag": "",
-    "editor": "",
-    "editLineArrowPoints": "",
-    "editText": "",
-    "github": "",
-    "howto": "",
-    "or": "",
-    "preventBinding": "",
-    "tools": "",
-    "shortcuts": "",
-    "textFinish": "",
-    "textNewLine": "",
-    "title": "",
-    "view": "",
-    "zoomToFit": "",
-    "zoomToSelection": "",
-    "toggleElementLock": "",
-    "movePageUpDown": "",
-    "movePageLeftRight": ""
+    "blog": "Read our blog",
+    "click": "click",
+    "deepSelect": "Deep select",
+    "deepBoxSelect": "Deep select within box, and prevent dragging",
+    "curvedArrow": "Mũi tên cong",
+    "curvedLine": "Curved line",
+    "documentation": "Documentation",
+    "doubleClick": "double-click",
+    "drag": "drag",
+    "editor": "Trình chỉnh sửa",
+    "editLineArrowPoints": "Edit line/arrow points",
+    "editText": "Edit text / add label",
+    "github": "Found an issue? Submit",
+    "howto": "Follow our guides",
+    "or": "or",
+    "preventBinding": "Prevent arrow binding",
+    "tools": "Công cụ",
+    "shortcuts": "Keyboard shortcuts",
+    "textFinish": "Finish editing (text editor)",
+    "textNewLine": "Add new line (text editor)",
+    "title": "Trợ giúp",
+    "view": "View",
+    "zoomToFit": "Zoom to fit all elements",
+    "zoomToSelection": "Phóng to vùng chọn",
+    "toggleElementLock": "Lock/unlock selection",
+    "movePageUpDown": "Move page up/down",
+    "movePageLeftRight": "Move page left/right",
+    "createFlowchart": "Create a flowchart from a generic element",
+    "navigateFlowchart": "Navigate a flowchart",
+    "cropStart": "Crop image",
+    "cropFinish": "Finish image cropping"
   },
   "clearCanvasDialog": {
     "title": "Dọn canvas"
   },
   "publishDialog": {
-    "title": "",
+    "title": "Publish library",
     "itemName": "Tên món",
-    "authorName": "",
-    "githubUsername": "",
-    "twitterUsername": "",
-    "libraryName": "",
-    "libraryDesc": "",
-    "website": "",
+    "authorName": "Author name",
+    "githubUsername": "GitHub username",
+    "twitterUsername": "Twitter username",
+    "libraryName": "Library name",
+    "libraryDesc": "Library description",
+    "website": "Website",
     "placeholder": {
-      "authorName": "",
-      "libraryName": "",
-      "libraryDesc": "",
-      "githubHandle": "",
-      "twitterHandle": "",
-      "website": ""
+      "authorName": "Your name or username",
+      "libraryName": "Name of your library",
+      "libraryDesc": "Description of your library to help people understand its usage",
+      "githubHandle": "GitHub handle (optional), so you can edit the library once submitted for review",
+      "twitterHandle": "Twitter username (optional), so we know who to credit when promoting over Twitter",
+      "website": "Link to your personal website or elsewhere (optional)"
     },
     "errors": {
-      "required": "",
-      "website": ""
+      "required": "Required",
+      "website": "Enter a valid URL"
     },
-    "noteDescription": "",
-    "noteGuidelines": "",
-    "noteLicense": "",
+    "noteDescription": "Submit your library to be included in the <link>public library repository</link> for other people to use in their drawings.",
+    "noteGuidelines": "The library needs to be manually approved first. Please read the <link>guidelines</link> before submitting. You will need a GitHub account to communicate and make changes if requested, but it is not strictly required.",
+    "noteLicense": "By submitting, you agree the library will be published under the <link>MIT License</link>, which in short means anyone can use them without restrictions.",
     "noteItems": "Từng món trong thư viện phải có tên riêng để có thể lọc. Các món thư viện sau đây sẽ thêm:",
     "atleastOneLibItem": "Vui lòng chọn ít nhất một món thư viện để bắt đầu",
     "republishWarning": "Lưu ý: một số món đã chọn được đánh dấu là đã xuất bản/đã gửi. Bạn chỉ nên gửi lại các món khi cập nhật thư viện hiện có hoặc gửi."
   },
   "publishSuccessDialog": {
-    "title": "",
-    "content": ""
+    "title": "Library submitted",
+    "content": "Thank you {{authorName}}. Your library has been submitted for review. You can track the status <link>here</link>"
   },
   "confirmDialog": {
-    "resetLibrary": "",
+    "resetLibrary": "Reset library",
     "removeItemsFromLib": "Xóa món đã chọn khỏi thư viện"
   },
   "imageExportDialog": {
-    "header": "",
+    "header": "Xuất hình ảnh",
     "label": {
-      "withBackground": "",
-      "onlySelected": "",
-      "darkMode": "",
-      "embedScene": "",
-      "scale": "",
-      "padding": ""
+      "withBackground": "Background",
+      "onlySelected": "Only selected",
+      "darkMode": "Chế độ tối",
+      "embedScene": "Nhúng cảnh",
+      "scale": "Scale",
+      "padding": "Padding"
     },
     "tooltip": {
-      "embedScene": ""
+      "embedScene": "Scene data will be saved into the exported PNG/SVG file so that the scene can be restored from it.\nWill increase exported file size."
     },
     "title": {
-      "exportToPng": "",
-      "exportToSvg": "",
-      "copyPngToClipboard": ""
+      "exportToPng": "Export to PNG",
+      "exportToSvg": "Export to SVG",
+      "copyPngToClipboard": "Copy PNG to clipboard"
     },
     "button": {
-      "exportToPng": "",
-      "exportToSvg": "",
-      "copyPngToClipboard": ""
+      "exportToPng": "PNG",
+      "exportToSvg": "SVG",
+      "copyPngToClipboard": "Copy to clipboard"
     }
   },
   "encrypted": {
-    "tooltip": "",
-    "link": ""
+    "tooltip": "Your drawings are end-to-end encrypted so Excalidraw's servers will never see them.",
+    "link": "Blog post on end-to-end encryption in Excalidraw"
   },
   "stats": {
-    "angle": "",
-    "element": "",
-    "elements": "",
-    "height": "",
-    "scene": "",
-    "selected": "",
-    "storage": "",
-    "title": "",
-    "total": "",
-    "version": "",
-    "versionCopy": "",
-    "versionNotAvailable": "",
-    "width": ""
+    "angle": "Angle",
+    "element": "phần tử",
+    "elements": "phần tử",
+    "height": "Chiều cao",
+    "scene": "Cảnh",
+    "selected": "Selected",
+    "storage": "Storage",
+    "title": "Properties",
+    "total": "Total",
+    "version": "Phiên bản",
+    "versionCopy": "Click to copy",
+    "versionNotAvailable": "Version not available",
+    "width": "Chiều rộng",
+    "shapes": "Shapes",
+    "fullTitle": "Canvas & Shape properties",
+    "generalStats": "Chung",
+    "elementProperties": "Shape properties"
   },
   "toast": {
-    "addedToLibrary": "",
-    "copyStyles": "",
-    "copyToClipboard": "",
-    "copyToClipboardAsPng": "",
-    "fileSaved": "",
-    "fileSavedToFilename": "",
+    "addedToLibrary": "Added to library",
+    "copyStyles": "Copied styles.",
+    "copyToClipboard": "Copied to clipboard.",
+    "copyToClipboardAsPng": "Copied {{exportSelection}} to clipboard as PNG\n({{exportColorScheme}})",
+    "fileSaved": "File saved.",
+    "fileSavedToFilename": "Saved to {filename}",
     "canvas": "canvas",
-    "selection": "",
-    "pasteAsSingleElement": "",
-    "unableToEmbed": "",
-    "unrecognizedLinkFormat": ""
+    "selection": "selection",
+    "pasteAsSingleElement": "Use {{shortcut}} to paste as a single element,\nor paste into an existing text editor",
+    "unableToEmbed": "Embedding this url is currently not allowed. Raise an issue on GitHub to request the url whitelisted",
+    "unrecognizedLinkFormat": "The link you embedded does not match the expected format. Please try to paste the 'embed' string provided by the source site",
+    "copyToClipboardAsSvg": "Copied {{exportSelection}} to clipboard as SVG\n({{exportColorScheme}})",
+    "elementLinkCopied": "Link copied to clipboard"
   },
   "colors": {
-    "transparent": "",
-    "black": "",
-    "white": "",
-    "red": "",
-    "pink": "",
-    "grape": "",
-    "violet": "",
-    "gray": "",
-    "blue": "",
-    "cyan": "",
-    "teal": "",
-    "green": "",
-    "yellow": "",
-    "orange": "",
-    "bronze": ""
+    "transparent": "Trong suốt",
+    "black": "Black",
+    "white": "White",
+    "red": "Red",
+    "pink": "Pink",
+    "grape": "Grape",
+    "violet": "Violet",
+    "gray": "Gray",
+    "blue": "Blue",
+    "cyan": "Cyan",
+    "teal": "Teal",
+    "green": "Green",
+    "yellow": "Yellow",
+    "orange": "Orange",
+    "bronze": "Bronze"
   },
   "welcomeScreen": {
     "app": {
-      "center_heading": "",
-      "center_heading_plus": "",
-      "menuHint": ""
+      "center_heading": "All your data is saved locally in your browser.",
+      "center_heading_plus": "Did you want to go to the Excalidraw+ instead?",
+      "menuHint": "Export, preferences, languages, ..."
     },
     "defaults": {
-      "menuHint": "",
-      "center_heading": "",
-      "toolbarHint": "",
-      "helpHint": ""
+      "menuHint": "Export, preferences, and more...",
+      "center_heading": "Diagrams. Made. Simple.",
+      "toolbarHint": "Pick a tool & Start drawing!",
+      "helpHint": "Shortcuts & help"
     }
   },
   "colorPicker": {
-    "mostUsedCustomColors": "",
-    "colors": "",
-    "shades": "",
-    "hexCode": "",
-    "noShades": ""
+    "mostUsedCustomColors": "Most used custom colors",
+    "colors": "Colors",
+    "shades": "Shades",
+    "hexCode": "Hex code",
+    "noShades": "No shades available for this color",
+    "color": "Màu sắc"
   },
   "overwriteConfirm": {
     "action": {
       "exportToImage": {
-        "title": "",
-        "button": "",
-        "description": ""
+        "title": "Export as image",
+        "button": "Export as image",
+        "description": "Export the scene data as an image from which you can import later."
       },
       "saveToDisk": {
-        "title": "",
-        "button": "",
-        "description": ""
+        "title": "Save to disk",
+        "button": "Save to disk",
+        "description": "Export the scene data to a file from which you can import later."
       },
       "excalidrawPlus": {
-        "title": "",
-        "button": "",
-        "description": ""
+        "title": "Excalidraw+",
+        "button": "Export to Excalidraw+",
+        "description": "Save the scene to your Excalidraw+ workspace."
       }
     },
     "modal": {
       "loadFromFile": {
-        "title": "",
-        "button": "",
-        "description": ""
+        "title": "Load from file",
+        "button": "Load from file",
+        "description": "Loading from a file will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first using one of the options below."
       },
       "shareableLink": {
-        "title": "",
-        "button": "",
-        "description": ""
+        "title": "Load from link",
+        "button": "Replace my content",
+        "description": "Loading external drawing will <bold>replace your existing content</bold>.<br></br>You can back up your drawing first by using one of the options below."
       }
     }
   },
   "mermaid": {
-    "title": "",
-    "button": "",
-    "description": "",
-    "syntax": "",
-    "preview": ""
+    "title": "Mermaid to Excalidraw",
+    "button": "Insert",
+    "description": "Currently only <flowchartLink>Flowchart</flowchartLink>,<sequenceLink> Sequence, </sequenceLink> and <classLink>Class </classLink>Diagrams are supported. The other types will be rendered as image in Excalidraw.",
+    "syntax": "Mermaid Syntax",
+    "preview": "Preview"
+  },
+  "elementLink": {
+    "title": "Link to object",
+    "desc": "Click on a shape on canvas or paste a link.",
+    "notFound": "Linked object wasn't found on canvas."
+  },
+  "search": {
+    "title": "Find on canvas",
+    "noMatch": "No matches found...",
+    "singleResult": "result",
+    "multipleResults": "results",
+    "placeholder": "Find text on canvas...",
+    "frames": "Frames",
+    "texts": "Texts"
+  },
+  "element": {
+    "rectangle": "Hình chữ nhật",
+    "diamond": "Hình thoi",
+    "ellipse": "Hình elip",
+    "arrow": "Mũi tên",
+    "line": "Đường thẳng",
+    "freedraw": "Freedraw",
+    "text": "Text",
+    "image": "Hình ảnh",
+    "group": "Nhóm",
+    "frame": "Khung hình",
+    "magicframe": "Wireframe to code",
+    "embeddable": "Nhúng web",
+    "selection": "Selection",
+    "iframe": "IFrame"
+  },
+  "shareDialog": {
+    "or": "Or"
+  },
+  "quickSearch": {
+    "placeholder": "Quick search"
+  },
+  "fontList": {
+    "badge": {
+      "old": "old"
+    },
+    "sceneFonts": "In this scene",
+    "availableFonts": "Available fonts",
+    "empty": "No fonts found"
+  },
+  "userList": {
+    "empty": "No users found",
+    "hint": {
+      "text": "Click on user to follow",
+      "followStatus": "You're currently following this user",
+      "inCall": "User is in a voice call",
+      "micMuted": "User's microphone is muted",
+      "isSpeaking": "User is speaking"
+    }
+  },
+  "commandPalette": {
+    "title": "Command palette",
+    "shortcuts": {
+      "select": "Select",
+      "confirm": "Xác nhận",
+      "close": "Close"
+    },
+    "recents": "Recently used",
+    "search": {
+      "placeholder": "Search menus, commands, and discover hidden gems",
+      "noMatch": "No matching commands..."
+    },
+    "itemNotAvailable": "Command is not available...",
+    "shortcutHint": "For Command palette, use {{shortcut}}"
   }
 }
