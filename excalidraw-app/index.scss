@@ -74,6 +74,33 @@
     z-index: 6;
     white-space: pre;
   }
+
+  .default-sidebar-trigger,
+  .help-icon,
+  .HintViewer {
+    display: none;
+  }
+
+  .layer-ui__wrapper__top-right {
+    pointer-events: none;
+  }
+
+  .drawlab-footer-actions {
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .drawlab-present-button {
+    font-family: var(
+      --ui-font,
+      -apple-system,
+      BlinkMacSystemFont,
+      "Segoe UI",
+      sans-serif
+    );
+    font-weight: 500;
+  }
 }
 
 .excalidraw-app.is-collaborating {

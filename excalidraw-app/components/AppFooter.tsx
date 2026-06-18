@@ -4,14 +4,8 @@ import { useI18n } from "@excalidraw/excalidraw/i18n";
 import { useExcalidrawActionManager } from "@excalidraw/excalidraw/components/App";
 import { actionPresent } from "@excalidraw/excalidraw/actions";
 
-import { isExcalidrawPlusSignedUser } from "../app_constants";
-
-import { DebugFooter, isVisualDebuggerEnabled } from "./DebugCanvas";
-import { EncryptedIcon } from "./EncryptedIcon";
-import { ExcalidrawPlusAppLink } from "./ExcalidrawPlusAppLink";
-
 export const AppFooter = React.memo(
-  ({ onChange }: { onChange: () => void }) => {
+  ({ onChange: _onChange }: { onChange: () => void }) => {
     const { t } = useI18n();
     const actionManager = useExcalidrawActionManager();
     const onPresent = useCallback(
@@ -21,20 +15,12 @@ export const AppFooter = React.memo(
 
     return (
       <Footer>
-        <div
-          style={{
-            display: "flex",
-            gap: ".5rem",
-            alignItems: "center",
-          }}
-        >
-          {isVisualDebuggerEnabled() && <DebugFooter onChange={onChange} />}
-          {isExcalidrawPlusSignedUser ? (
-            <ExcalidrawPlusAppLink />
-          ) : (
-            <EncryptedIcon />
-          )}
-          <Button onSelect={onPresent} style={{ width: "fit-content" }}>
+        <div className="drawlab-footer-actions">
+          <Button
+            onSelect={onPresent}
+            style={{ width: "fit-content" }}
+            className="drawlab-present-button"
+          >
             {t("labels.present")}
           </Button>
         </div>
